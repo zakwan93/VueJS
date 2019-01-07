@@ -11,7 +11,11 @@ const example = new Vue({
 	data: {
 		title: "Hello",
 		message: "I'm enjoying Vue ",
-		name: "Zak"
+		name: "Zak",
+		img:{
+			src: "https://placeimg.com/200/200/animals" ,
+			alt: " A placeholder image of animals"
+		}
 	}
 });
 

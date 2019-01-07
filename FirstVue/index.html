@@ -12,6 +12,14 @@
      <div id="example">
         <!-- <h1>{{ title + ", " + name.toUpperCase() }}</h1> -->
         <h1>{{ title }}, {{ name.toUpperCase() }}</h1>
+
+
+        <!-- Use of V-bind in Vue  -->
+        <!-- <img v-bind:src="img.src" v-bind:alt="img.alt"> -->
+
+        <!-- short form of v-bind is -->
+        <img :src="img.src" :alt="img.alt">
+
         <p>{{ message }}</p>
     </div>
 
